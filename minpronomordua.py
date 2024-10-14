@@ -16,7 +16,7 @@ def login():
         elif pengguna == "2":
             pelanggan()
         else:
-            print("Maaf anda tidak dikenal")
+            print("coba lagi")
 
 # buat bikin prettytable
 from prettytable import PrettyTable
