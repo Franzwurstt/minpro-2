@@ -163,6 +163,7 @@ contoh gambar:
 # 6. read
 
 def lihat_servisan():
+
     print(table)
 
 PENJELASAN OUTPUT: 
