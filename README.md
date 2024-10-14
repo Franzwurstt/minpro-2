@@ -4,8 +4,10 @@ NIM= 2409116054
 ![image](https://github.com/user-attachments/assets/43d4d331-eb62-426f-96d8-8318f7551283)
 
 
-Penjelasan kodingan
-login function
+Penjelasan kodingan:
+
+1. login function
+   
 def login():
     while True:
         print("1. Admin")
@@ -44,7 +46,7 @@ bukti gambar: Admin
 bukti gambar: pelanggan
 ![Screenshot (561)](https://github.com/user-attachments/assets/12ba8f97-a0fb-4a0f-afe7-5336a367f4ce)
 
-tabel 
+2. tabel 
 
 from prettytable import PrettyTable
 
@@ -72,7 +74,7 @@ contoh gambar:
 
 ![Screenshot (559)](https://github.com/user-attachments/assets/41a60e6a-740d-4d5b-ab21-06c01681ef37)
 
-admin
+3. admin
 
 def admin():
     while True:
@@ -111,7 +113,7 @@ contoh gambar:
 ![Screenshot (555)](https://github.com/user-attachments/assets/2dd99c58-35ea-46b6-9fbf-9f69acec4b87)
 
 
-pelanggan
+4. pelanggan
 
 def pelanggan():
     while True:
@@ -142,7 +144,7 @@ contoh gambar:
 
 ![Screenshot (561)](https://github.com/user-attachments/assets/54c4eba8-55a9-4f17-a2bc-6f144d75e11c)
 
-create
+5. create
 
 def create_servisan():
     no = str(len(table._rows) + 1)
@@ -158,7 +160,7 @@ PENJELASAN output
 contoh gambar:
 ![Screenshot (556)](https://github.com/user-attachments/assets/04326697-31fc-4be5-802a-2a70866afd55)
 
-read
+6. read
 
 def lihat_servisan():
     print(table)
@@ -169,7 +171,7 @@ memperlihatkan tabel
 contoh gambar:
 ![Screenshot (557)](https://github.com/user-attachments/assets/03777715-d258-46a2-b260-4908cc432240)
 
-update
+7. update
 
 def update_servisan():
     print(table)
@@ -193,7 +195,7 @@ mengubah nama servisan yang ada didalam tabel
 contoh gambar:
 ![Screenshot (558)](https://github.com/user-attachments/assets/8cb46c29-9422-452f-a295-86aad4f6b7ce)
 
-delete
+8. delete
 
 def hapus_servisan():
     print(table)
@@ -214,7 +216,7 @@ contoh gambar:
 
 ![Screenshot (566)](https://github.com/user-attachments/assets/5ace4fbc-15fd-436e-beeb-0d8bafe7b0d2)
 
-pesan
+9. pesan
 
 import time
 def pesan_layanan():
