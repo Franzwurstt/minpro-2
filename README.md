@@ -6,7 +6,7 @@ NIM= 2409116054
 
 Penjelasan kodingan:
 
-1. login function
+# 1. login function
    
 def login():
     while True:
