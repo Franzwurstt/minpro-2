@@ -53,7 +53,6 @@ from prettytable import PrettyTable
 table = PrettyTable()
 table.field_names = ["No", "Nama servisan", "Harga servis "]
 
-#membuat list layanan pakai prettytable
 def servisan(no, nama_servisan, harga):
     table.add_row([no, nama_servisan, harga])
 
